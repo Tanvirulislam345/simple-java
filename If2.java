@@ -3,6 +3,7 @@ package conditionalStatement;
 import java.util.Scanner;
 
 public class If2 {
+	//How much mark a student achive.
 
 	public static void main(String[] args) {
 		System.out.println("Enter your mark:");
