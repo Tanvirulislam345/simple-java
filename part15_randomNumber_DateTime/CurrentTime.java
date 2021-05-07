@@ -30,14 +30,14 @@ public class CurrentTime {
 
 //         This is another way find currenttime
 //         //using LoclTime and now methods
-//         LocalTime time = LocalTime.now();
-//         //System.out.println("Current time is - "+time);
+	    
+//         	LocalTime time = LocalTime.now();
+//         	//System.out.println("Current time is - "+time);      
+//         	DateTimeFormatter formatter = DateTimeFormatter.ofPattern("hh:mm:ss");
+//         	String currenttime = formatter.format(time);
+//         	//String currenttime = formatter.format(time);
         
-//         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("hh:mm:ss");
-//         String currenttime = formatter.format(time);
-//         //String currenttime = formatter.format(time);
-        
-//         System.out.println("Current time is - "+currenttime);
+//         	System.out.println("Current time is - "+currenttime);
 
 
     }
