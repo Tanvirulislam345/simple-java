@@ -14,8 +14,8 @@ public class CurrentDate {
         
 	//This is simple way find date and time
         //using LoclDateTime and now methods find time or date
-        LocalDateTime time = LocalDateTime.now();
-//         LocalDateTime date = LocalDateTime.now();
+	LocalDateTime date = LocalDateTime.now();
+//         LocalDateTime time = LocalDateTime.now();
 
 	//use format
         DateTimeFormatter formatter1 = DateTimeFormatter.ofPattern("yyyy/MM/dd");
@@ -34,11 +34,12 @@ public class CurrentDate {
 
 // 	This is another way find date
 //      using DateFormat and SimpleDateFormat methods
-//      DateFormat dateformat = new SimpleDateFormat("dd/MM/YYYY HH:mm:ss"); //use for date and time 
-        DateFormat dateformat = new SimpleDateFormat("dd/MM/YYYY");
-        String currentdate = dateformat.format(date);
+	    
+//     	   DateFormat dateformat = new SimpleDateFormat("dd/MM/YYYY HH:mm:ss"); //use for date and time 
+//         DateFormat dateformat = new SimpleDateFormat("dd/MM/YYYY");
+//         String currentdate = dateformat.format(date);
 
-        System.out.println("Todays date is : " + currentdate);
+//         System.out.println("Todays date is : " + currentdate);
 
 
     }
